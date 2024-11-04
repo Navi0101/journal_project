@@ -1,0 +1,19 @@
+body {
+    background-color: #232323;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#text-area {
+    color: #33FF33;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #232323;
+    width: 95vw;
+    height: 95vh;
+    border-color: #33FF33;
+}
+
+#text-area::placeholder {
+    color: white;
+    opacity: 80;
+}
