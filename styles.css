@@ -4,16 +4,17 @@ body {
 }
 
 #text-area {
-    color: #33FF33;
+    color: #FFB000;
     font-size: 18px;
     font-weight: bolder;
     background-color: #232323;
     width: 95vw;
     height: 95vh;
-    border-color: #33FF33;
+    border: none; /*I don't want a border*/
+    outline: none; /*removes border that shows up in browser when typing in text area*/
 }
 
 #text-area::placeholder {
-    color: white;
-    opacity: 80;
+    color: #FFB000;
+    opacity: 0.50; /*This equals 50%*/
 }
